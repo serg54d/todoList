@@ -1,0 +1,78 @@
+.App {
+	padding: 30px;
+	display: flex;
+	/* height: 100vh; */
+	justify-content: center;
+	overflow: hidden;
+	flex-wrap: wrap;
+	gap: 40px;
+}
+
+.todolist {
+	background-color: #71f18fdd;
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	border-radius: 10px;
+	color: #000000c0;
+	gap: 20px;
+	min-width: 400px;
+}
+
+.todolist__title {
+	font-weight: 700;
+	font-size: 25px;
+	text-align: center;
+}
+
+.todolist__add {
+	display: flex;
+	gap: 5px;
+	justify-content: center;
+}
+
+.todolist__field {
+	display: flex;
+	padding: 10px 5px;
+	border-radius: 5px;
+	outline: none;
+	width: 99%;
+	transition: 0.3s;
+}
+
+.todolist__field:active {
+	transform: scale(1.02);
+}
+
+.todolist__btn-add {
+	padding: 10px 20px;
+	background-color: #ffffffdd;
+	border-radius: 5px;
+	font-size: 20px;
+	transition: 0.3s;
+}
+
+.todolist__btn-add:hover {
+	transform: scale(1.02);
+	background-color: rgb(234, 109, 109);
+}
+
+.todolist__control {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	align-items: center;
+}
+
+.todolist__btn {
+	display: flex;
+	padding: 10px 20px;
+	border-radius: 10px;
+	transition: 0.3s;
+	width: 50%;
+}
+
+.todolist__btn:hover,
+.todolist__btn:active {
+	background-color: rgb(234, 109, 109);
+}
